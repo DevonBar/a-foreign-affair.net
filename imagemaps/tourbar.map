@@ -1,0 +1,11 @@
+default /tour/
+
+rect / 1,0 194,21
+rect /tour/order/order.shtml 1,24 194,45
+rect /tour/order/brochure.shtml 1,48 194,69
+rect /tour/platmem.shtml 1,72 194,93
+rect /tour/ 197,0 390,21
+rect /women/profiles.htm 197,24 390,45
+rect /tour/order/tour.shtml 197,48 390,69	
+rect /visa/ 197,72 390,93 
+

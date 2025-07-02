@@ -1,0 +1,96 @@
+<header>
+
+ 
+        <!--#include virtual="/dev3/ssi/top-navi-all-pages.shtml" -->
+
+          <!---BANNER-->
+
+
+          <div class="banner">
+            <div class="container">
+
+
+              <!-- MOBILE VIDEO BANNER -->
+              <div class="mobile-video-banner">
+                <figure class="figure-vid">
+                  <a href="https://youtu.be/xBdCG9D-fmc" data-lity><img
+                      src="https://i.ytimg.com/vi/xBdCG9D-fmc/hqdefault.jpg" border="0" alt="A Foreign Affair Video"
+                      class="img-thumbnail" /></a>
+                </figure>
+              </div>
+
+
+
+              <div class="banner-contents">
+
+                <div class="col-md-8 banner-left">
+                  <h1>Find Single Foreign Women <br> with <span> A Foreign Affair!</span></h1>
+                  <ul class="list-inline rotator">
+
+                    <!--#include virtual="/dev3/ssi/a-foreign-affair-rotator.php" -->
+
+      
+                  </ul>
+
+                </div>
+
+                <div class="col-md-4 banner-right">
+
+                  <!-- Swiper -->
+                  <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="./img/slide-1.webp" alt /></div>
+                      <div class="swiper-slide"> <img src="./img/slide-2.webp" alt /></div>
+                      <div class="swiper-slide"><img src="./img/slide-3.webp" alt /></div>
+                      <div class="swiper-slide"> <img src="./img/slide-4.webp" alt /></div>
+                      <div class="swiper-slide"> <img src="./img/slide-5.webp" alt /></div>
+                      <div class="swiper-slide"> <img src="./img/slide-6.webp" alt /></div>
+                      <div class="swiper-slide"> <img src="./img/slide-7.webp" alt /></div>
+                       <div class="swiper-slide"> <img src="./img/slide-8.webp" alt /></div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <!---END OF BANNER-->
+            </div>
+            <!-- END of STATIC MAIN NAVBAR -->
+          </div>
+        </div>
+
+
+  </header>
+
+
+  <main>
+
+    <!--START OF MAIN CONTENT-->
+    <div class="container content main-content-desktop">
+
+      <!-- Start Left Sidebar -->
+      <div class="row">
+
+        <div class="col-md-4">
+
+           <!--#include virtual="/dev3/ssi/sidebar-navi-all-pages.shtml" -->
+
+        </div>
+
+        <!-- </div>
+
+  </div> -->
+        <!-- End Left Sidebar -->
+
+
+        <div class="col-md-10 ">
+
+          <div class="main-article ">
+
+
+            <!-- MOBILE SIDEBAR - INSIDE CONTENT -->
+
+
+             <!--#include virtual="/dev3/ssi/top-mobile-sidebar.shtml" -->
+
+           

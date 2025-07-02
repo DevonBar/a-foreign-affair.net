@@ -1,0 +1,163 @@
+<script defer src="/members/scripts/lp_track.min.js" async></script>
+<link rel="icon" href="/favicon.ico" />
+  <!-- CSS and javascript files -->
+      <script src="/invar/ssi-common/jscript/ddaccordion.js"></script>
+      <link rel="stylesheet" TYPE="text/css" href="/imagemap/st_site.css">
+      <!-- END CSS and javascript files -->
+
+      <!--FONTAWESOME-->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<style>
+  .profile-navbar-header {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  @media (min-width: 1024px) {
+    .profile-site-logo {
+      display: none;
+}
+  }
+
+
+
+
+</style>
+
+
+<!--START OF MAIN NAVIGATION-->
+
+<div class="container-fluid">
+
+  <div class="container top-logos">
+    <div class="col-lg-3 col-md-3 col-sm-4"><a href="/" target="_top"><img style="width:250px;margin-top:40px;" src="/img/a-foreign-affair-net-logo.png"
+          alt="A Foreign Affair Logo"></a>
+    </div>
+    <div class="col-lg-9 col-md-9 col-sm-8 text-right">
+      <a href="/invar/sendmess/index.php" target="_blank">
+        <img src="/img/contact-number-top.png">
+      </a>
+
+      <a href="#" data-toggle="modal" data-target=".a-foreign-affair-net-modal" class="register-btn">
+        <span> Register Free Instantly <br>
+          <span>Obligation - NO CC Required</span> </span>
+      </a>
+    </div>
+
+
+
+  </div>
+
+  <div class="row ">
+
+    <!-- STATIC MAIN NAVBAR -->
+    <div class="main-nav">
+
+
+      <!-- Static navbar -->
+      <nav class="navbar navbar-default navbar-static-top">
+
+       
+          <div class="profile-navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+              aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+            <!--ADA ICON-->
+            <div class="ada-icon-link">
+              <a href="/information/ada/index.html" target="_blank"><img class="ada-icon" src="/img/handicap-icon.png"
+                  alt="Link to ADA Handicap Assistance and Information" border="0"></a>
+              <a href="#main-content"><img src="/img/arrow-forward.png" alt="Disabled Skip to Main Page Content"
+                  border="0"></a>
+            </div>
+
+            <!--SITE LOGO-->
+
+            <div class="profile-site-logo"><a href="/" target="_top"><img src="/img/a-foreign-affair-net-logo-mobile.png" alt="A Foreign Affair Logo" style="width:200px;">
+              </a> </div>
+
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav text-center">
+              <li><a target="_top" href="/"> Home</a></li>
+
+              <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"
+                  target="_blank">Women&#39;s Profiles <i class="fa-solid fa-caret-down"></i></a>
+                <ul class="dropdown-menu">
+                  <li><a href="/members/signup/" target="_blank"> Men&rsquo;s FREE Registration</a></li>
+                  <li><a href="/women/women.htm" target="_blank"> Foreign Women&#39;s Profiles</a></li>
+                  <li><a href="/new-foreign-women.html" target="_blank"> Foreign Women Newest Profiles</a></li>
+                  <li><a href="/search-single-foreign-women-worldwide.html" target="_blank"> Want More? Single Women
+                      Worldwide</a></li>
+                  <li><a href="/new-single-girls-for-marriage-worldwide.html" target="_blank"> This Weeks New Girls
+                      Worldwide</a></li>
+                  <li><a href="/search-foreign-women-seeking-men/search-all-foreign-women.html" target="_blank"> Advanced Search</a></li>
+                  <li><a href="/order-form/automatchmaillist.shtml" target="_blank"> Weekly Auto Match Wizard</a>
+                  </li>
+
+                </ul>
+              </li>
+
+              <li><a href="/a-foreign-affair-tour.html" target="_blank">Women Single Tours</a></li>
+              <li><a href="/how-to-meet-foreign-women.html" target="_blank">How to Meet Women</a></li>
+              <li><a href="/new-foreign-women.html.html" target="_blank">Newest Women&rsquo;s
+                  Profiles</a></li>
+              <li><a href="/search-foreign-women-seeking-men/search-all-foreign-women.html" target="_blank">Advanced Search</a></li>
+              <li><a href="/members/login" target="_blank"><i class="fa-regular fa-user"></i> My Account</a></li>
+
+
+              <div class="call-us-mobile">
+                <h3>Call Us Now: </h3>
+                <a href="/invar/sendmess/index.php">
+                  <img src="/img/contact-number-mobile.png">
+                </a>
+              </div>
+
+
+            </ul>
+          </div><!--/.nav-collapse -->
+       
+
+      </nav>
+
+
+<!--END OF START OF MAIN NAVIGATION-->
+
+   <!-- Button Modal Start -->
+  <div class="modal fade a-foreign-affair-net-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content register-modal">
+        <div class="row">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i
+                class="fa-solid fa-circle-xmark" style="color: #600007;"></i></span></button>
+          <div class="col-lg-6">
+            <!--#include virtual="/invar/ssi-common/why-register.shtml" -->
+          </div>
+
+          <div class="col-lg-6">
+            <!--#include virtual="/invar/ssi-common/form-register.shtml" -->
+          </div>
+        </div>
+
+        <div class="col-lg-12 text-center register-custom">
+          <h2>
+            Is there any REAL reason to wait?<br />
+            It's FREE, instant and without obligation to register NOW!
+          </h2>
+
+          <h5>
+            It’s the first step in possibly the most rewarding romantic adventure of your lifetime!
+          </h5>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Button Modal End -->

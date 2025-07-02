@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Language" content="en-us" />
+    <title>A Foreign Affair Informational Videos</title>
+    <meta name="description" content="Learn how to find a foreign bride through A Foreign Affair's informational videos.">
+    <meta name="keywords" content="informational videos, foreign affair, foreign bride">
+    <meta name="author" content="<!--#include virtual="/imagemap/sitename.shtml" -->">
+    <link rel="canonical" href="https://<!--#include virtual="/imagemap/canonical-domain.shtml" -->/a-foreign-affair-videos/a-foreign-affair-informational-videos.html" />
+    
+    <!--#include virtual="/imagemap/analytics.shtml" -->
+    
+    <!--#include virtual="/imagemap/push-code.shtml" -->
+    
+    <!-- start of Schema -->
+
+    
+
+   
+   
+    </head>
+    <body>
+    
+     
+    <!--#include virtual="/imagemap/header.shtml" -->
+
+      <a name="pagination-return-top"></a>
+
+      <div class="nav">
+        <ul class="list-inline tour-dates-header tour-dates-header-margin">
+            <li class="secondaryBGColor"><a href="/a-foreign-affair-videos/">Tour Videos</a></li>
+            <li class="secondaryBGColor"><a href="/a-foreign-affair-videos/a-foreign-affair-testimonial-videos.html">Testimonial Videos</a></li>
+            <li class="secondaryBGColor active"><a href="/a-foreign-affair-videos/a-foreign-affair-informational-videos.html">Informational Videos</a></li>
+        </ul>
+      </div>
+
+      <script type="text/javascript">
+        $(document).ready(function() {
+            // get current URL path and assign 'active' class
+            var pathname = window.location.pathname;
+            $('.nav > ul > li > a[href="'+pathname+'"]').parent().addClass('active');
+        })
+      </script>
+
+      <a name="main-content"></a>
+
+      <h1>Informational Videos</h1>
+
+      <!-- <nav aria-label="Page navigation" class="custom-navigation-nav">
+        <ul class="pagination" id="pagingTop">
+          <li class="custom-pagination-previous-page"><a href="#pagination-return-top">Previous</a></li>
+        </ul>
+      </nav> -->
+
+      <div id="custom-pagination-container">
+
+      <!-- add  videos here -->
+
+          <!-- START LOOP -->
+
+            <!--#include virtual="/a-foreign-affair-videos/informational/content-informational.php" -->  
+
+          <!-- END LOOP -->
+          
+      <!-- end  videos here -->
+        
+
+      </div>
+
+      <!-- <nav aria-label="Page navigation" class="custom-navigation-nav">
+        <ul class="pagination" id="pagingBottom">
+          <li class="custom-pagination-previous-page"><a href="#pagination-return-top">Previous</a></li>
+        </ul>
+      </nav> -->
+
+    <!--#include virtual="/imagemap/footer.shtml" -->
+
+  </body>
+</html>
+
+      
+<script> 
+  var numberOfItems = $('#custom-pagination-container .custom-pagination-page').length;
+  var limitPerPage = 5;
+
+  console.log('Items: ' + numberOfItems);
+
+  $("#custom-pagination-container .custom-pagination-page:gt(" + (limitPerPage -1)  + ")").hide();
+  var totalPages = Math.round(numberOfItems / limitPerPage);
+  $('.pagination').append("<li class='custom-pagination-current-page active'><a href='#pagination-return-top'>" + 1 + "</a></li>");
+
+  for (var i = 2; i <= totalPages; i++) {
+    $('.pagination').append("<li class='custom-pagination-current-page'><a href='#pagination-return-top'>" + i + "</a></li>");
+  }
+
+
+  $('.pagination').append("<li class='custom-pagination-next-page'><a href='#pagination-return-top'>Next</a></li>");
+
+  $(".pagination li.custom-pagination-current-page").on("click", function () {
+
+    if ($(this).hasClass("active")) {
+      return false;
+    } else {
+      var currentPage = $(this).index();
+      console.log('Index: ' + currentPage);
+      $(".pagination li").removeClass("active");
+      //$(this).addClass("active");
+      //$(".pagination li.custom-pagination-current-page:eq(" + (currentPage-1) + ")").addClass("active");
+      $("#pagingTop li.custom-pagination-current-page:eq(" + (currentPage-1) + ")").addClass("active");
+      $("#pagingBottom li.custom-pagination-current-page:eq(" + (currentPage-1) + ")").addClass("active");
+      
+      $(".custom-pagination-page").hide();
+
+      var grandTotal = limitPerPage * currentPage;
+
+      for ( var i = grandTotal - limitPerPage; i < grandTotal; i++) {
+        $("#custom-pagination-container .custom-pagination-page:eq(" + i + ")").show();
+      }
+    }
+
+  });
+
+  $(".custom-pagination-next-page").on("click", function () {
+    var currentPage = $(".pagination li.active").index();
+    if (currentPage === totalPages) {
+      return false;
+    } else {
+      currentPage++;
+      $(".pagination li").removeClass("active");
+      $("#custom-pagination-container .custom-pagination-page").hide();
+
+      var grandTotal = limitPerPage * currentPage;
+
+      for ( var i = grandTotal - limitPerPage; i < grandTotal; i++) {
+        $("#custom-pagination-container .custom-pagination-page:eq(" + i + ")").show();
+      }
+
+      //$(".pagination li.custom-pagination-current-page:eq(" + (currentPage - 1) + ")").addClass("active");
+      $("#pagingTop li.custom-pagination-current-page:eq(" + (currentPage - 1) + ")").addClass("active");
+      $("#pagingBottom li.custom-pagination-current-page:eq(" + (currentPage - 1) + ")").addClass("active");
+    }
+  });
+
+  $(".custom-pagination-previous-page").on("click", function () {
+    var currentPage = $(".pagination li.active").index();
+    if (currentPage === 1) {
+      return false;
+    } else {
+      currentPage--;
+      $(".pagination li").removeClass("active");
+      $("#custom-pagination-container .custom-pagination-page").hide();
+
+      var grandTotal = limitPerPage * currentPage;
+
+      for ( var i = grandTotal - limitPerPage; i < grandTotal; i++) {
+        $("#custom-pagination-container .custom-pagination-page:eq(" + i + ")").show();
+      }
+
+      //$(".pagination li.custom-pagination-current-page:eq(" + (currentPage - 1) + ")").addClass("active");
+      $("#pagingTop li.custom-pagination-current-page:eq(" + (currentPage - 1) + ")").addClass("active");
+      $("#pagingBottom li.custom-pagination-current-page:eq(" + (currentPage - 1) + ")").addClass("active");
+    }
+  });
+</script>

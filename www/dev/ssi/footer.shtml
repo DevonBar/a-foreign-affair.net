@@ -1,0 +1,110 @@
+<div class="newsbottom">
+ <!--#include virtual="/dev/ssi/news-bottom.shtml"-->
+</div>
+
+</div><!-- End Content Area -->
+
+    <div class="disorder-four">
+      <!-- Start Footer Area -->
+      <div class="row footer-top">
+        <div class="container text-center">
+          <h3><strong>
+            Contact Information
+          </strong></h3>
+          <a href="/invar/sendmess/index.php"><img src=" /invar/ssi-common/contact/contact-light-background.png" border="0" class="img-responsive" alt="A Foreign-Affair | Contact"></a>
+          <p>There Is One Russian, Asian Or Latin Woman Here Who Can Change Your Life Forever. <span>Begin Your Foreign Adventure For Real Love And Marriage Here Today!</span></p>
+        </div>
+      </div>
+
+    <div class="row footer-bottom">
+      <div class="container text-center">
+        <p>This program is the sole property of A Foreign Affair and may not be copied in any way or form without express permission from A Foreign Affair.</p>
+
+        <div class="footer-social">
+          <ul class="list-inline">
+            <li><a href="#" target="_blank"><img src="/dev/img/a-foreign-affair-fb.png" alt="A-Foreign-Affair | Facebook" border="0" /></a></li>
+            <li><a href="#" target="_blank"><img src="/dev/img/a-foreign-affair-twitter.png" alt="A-Foreign-Affair | Twitter" border="0"></a></li>
+            <li><a href="#" target="_blank"><img src="/dev/img/a-foreign-affair-instagram.png" alt="A-Foreign-Affair | Instagram" border="0" /></a></li>
+            <li><a href="#" target="_blank"><img src="/dev/img/a-foreign-affair-youtube.png" alt="A-Foreign-Affair | Youtube" border="0" /></a></li>
+            <li><a href="#" target="_blank"><img src="/dev/img/a-foreign-affair-linkedIn.png" alt="A-Foreign-Affair | LinkedIn" border="0" /></a></li>
+            <li><a href="#" target="_blank"><img src="/dev/img/a-foreign-affair-tiktok.png" alt="A-Foreign-Affair | Tiktok" border="0" /></a></li>
+          </ul>
+        </div>
+
+        <div class="footer-nav">
+          <ul class="list-inline">
+            <li><a href="/dev/" target="_top">Home</a></li>
+            <li><a href="#" target="_top">A Foreign Affair Profiles</a></li>
+            <li><a href="#" target="_top">A Foreign Affair Tours</a></li>
+            <li><a href="#" target="_top">How to Meet Foreign Women</a></li>
+            <li><a href="#" target="_top">A Foreign Affair Newest Profiles</a></li>
+            <li><a href="#" target="_top">Advanced Search</a></li>
+            <li><a href="#">Terms &amp; Conditions </a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="/invar/sendmess/index.php">Contact</a></li>
+            <li><a href="/members/login" target="_top">Login</a></li>
+           </ul>
+        </div>
+
+        <div class="copyright">
+          <p>&copy; Copyright - All Rights Reserved. | <a href="/dev/">A-Foreign-Affair</a></p>
+        </div>
+
+      </div>
+    </div>
+    </div>
+      
+    <!-- End Footer Area -->
+  </div>
+    
+    <!-- Button Modal Start -->
+      <div class="modal fade a-foreign-affair-modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content register-modal">
+                    <div class="row">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><img src="/dev/img/a-foreign-affair-modal-close.png" alt="Close button"></span></button>
+                        <div class="col-lg-6">
+                            <!--#include virtual="/invar/ssi-common/why-register.shtml" --> 
+                        </div>
+
+                        <div class="col-lg-6">
+                           <!--#include virtual="/invar/ssi-common/form-register.shtml" -->  
+                        </div>
+
+                        <div class="col-lg-12 text-center register-custom">
+                          <h2>
+                            Is there any REAL reason to wait?<br/>
+                            It&apos;s FREE, instant and without obligation to register NOW!
+                          </h2>
+
+                          <h5>
+                            It&apos;s the first step in possibly the most rewarding romantic adventure of your lifetime!
+                          </h5>
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- Button Modal End -->
+
+  <!-- Structure JavaScript
+    ================================================== -->
+    
+  <script src="/jscripts/lity.js"></script>
+
+<!-- Start of LiveChat (www.livechatinc.com) code -->
+<script type="text/javascript">
+  window.__lc = window.__lc || {};
+  window.__lc.license = 11402428;
+  (function() {
+    var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+    lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+  })();
+</script>
+<noscript>
+<a href="https://www.livechatinc.com/chat-with/11402428/" rel="nofollow">Chat with us</a>,
+powered by <a href="https://www.livechatinc.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a>
+</noscript>
+<!-- End of LiveChat code -->

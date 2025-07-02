@@ -1,0 +1,538 @@
+
+<script defer src="/members/scripts/lp_track.min.js" async></script>
+
+<!-- Google Tag Manager (noscript) -->
+<!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MPLFVVH"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
+<!-- End Google Tag Manager (noscript) -->
+
+<link href="/invar/ssi-common/framework.css" rel="stylesheet" type="text/css">
+<script src="/invar/ssi-common/jscript/jquery.min.js"></script>
+<script src="/invar/ssi-common/jscript/ddaccordion.js"></script>
+<script src="/invar/ssi-common/jscript/framework.min.js"></script>
+
+
+
+<!--GOOGLE FONTS-->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+href="https://fonts.googleapis.com/css2?family=Alata&family=Inter:wght@400;500;700&family=Lato:wght@400;700&display=swap"
+rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+
+
+
+<!-------------------------floating components---------------------------------------------->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+<link rel="stylesheet" TYPE="text/css" href="/jscripts/slider-js-css/masterslider.main.css">
+<link rel="stylesheet" TYPE="text/css" href="/jscripts/slider-js-css/style.css">
+<link rel="stylesheet" href="/imagemap/bottom-cta.css?tms=<!--#include virtual="/imagemap/timestamp.php"-->">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+<link rel="stylesheet" type="text/css" href="/imagemap/st_site.css?tms=<!--#include virtual="/imagemap/timestamp.php"-->">
+<link rel="icon" href="/favicon.ico" />
+
+<!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/webm@1.0.0/webm.min.js"></script> -->
+
+
+<!--CSS STYLES-->
+
+<style>
+
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%;
+  /* 100% Full-height */
+  width: 0;
+  /* 0 width - change this with JavaScript */
+  position: fixed;
+  /* Stay in place */
+  z-index: 18;
+  /* Stay on top */
+  top: 0px !important;
+  left: -20px;
+  background-color: #fbfbfb;
+  /* Black*/
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 0px !important;
+  /* Place content 60px from the top */
+  transition: 0.5s;
+ 
+  /* 0.5 second transition effect to slide in the sidenav */
+  /* box-shadow: 10px 1px 5px -6px rgba(0, 0, 0, 0.18);
+  -webkit-box-shadow: 10px 1px 5px -6px rgba(0, 0, 0, 0.18);
+  -moz-box-shadow: 10px 1px 5px -6px rgba(0, 0, 0, 0.18); */
+}
+
+.left-menu {
+  border: none;
+}
+
+.oc-menu .left-menu {
+  border: none;
+}
+
+
+.ada-icon-link {
+  display: none;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    text-decoration: none;
+  }
+
+  .news {
+    display: none !important;
+  }
+
+
+  .main-content-desktop {
+    padding: 20px !important;
+    max-width: 100% !important;
+    width: 1600px !important;
+    margin-top: 240px;
+    margin-inline: auto;
+}
+  
+
+
+  .main-article p {
+
+    color: #000;
+    /* margin:10px 50px 10px 50px; */
+    text-align: left;
+    line-height: 1.8em;
+    padding: 0;
+  }
+
+
+  .main-nav2 .navbar-nav li {
+    position: relative !important;
+    z-index: 2 !important;
+  }
+
+
+  .banner {
+    display: none;
+  }
+
+
+  .navbar-header {
+    float: unset !important;
+  }
+
+
+  .mobile-sidebar .navbar-header {
+    position:relative;
+    z-index:auto;
+    margin-top: 0 !important;
+  }
+
+  .main-nav .navbar-header {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 0 15px;
+    margin-top: 15px;
+}
+  
+
+.mobile-sidebar .navbar-header button.navbar-toggle.collapsed, .mobile-sidebar .navbar-header button.navbar-toggle  {
+  margin: 0;
+}
+
+.main-nav .nav li {
+  margin-block: 5px;
+}
+
+.main-nav .navbar-nav li a {
+  font-size: 1.4rem !important;
+  padding: 5px;
+}
+
+.main-nav .navbar-default .navbar-toggle {
+  margin-left: auto !important;
+
+}
+
+
+.main-nav .navbar-default .navbar-nav .dropdown.open .dropdown-menu li a {
+  padding: 0;
+  font-size: 1.4rem !important;
+}
+
+
+#bottom-cta-nav-mobile .list-group-item:nth-child(3) {
+  background: linear-gradient(to right, rgb(32, 0, 33) 0%, rgb(79, 0, 13) 60%, rgb(111, 0, 0) 100%) !important;
+}
+
+#bottom-cta-nav-mobile .list-group-item:nth-child(3) a {
+  color: #fed681 !important;
+  background: linear-gradient(to right, rgb(32, 0, 33) 0%, rgb(79, 0, 13) 60%, rgb(111, 0, 0) 100%) !important;
+
+}
+
+
+.left-sidebar {
+  width: 100%;
+}
+
+.mobile-sidebar.navbar-inverse {
+  display: none;
+} 
+
+
+  @media screen and (max-width: 991px) and (min-width: 300px)  {
+    .toprightarea,
+    .ada-icon-link {
+      display: none;
+    }
+
+    .main-article {
+      display: block !important;
+    }
+  }
+  
+
+  @media screen and (min-width: 820px) {
+    .main-content-desktop {
+      margin-top: 250px;
+    }
+  }
+
+  @media  (min-width: 1024px) {
+    /* .main-nav {
+        display: none;
+    }    */
+
+    .navbar-static-top {
+      display: none;
+    }
+
+    .main-content-desktop {
+      margin-top: 215px;
+    }
+
+
+  
+}
+
+
+@media (min-width: 1440px) {
+      .main-content-desktop {
+        margin-top:190px;
+      }
+    }
+
+
+    .main-nav .nav li:first-child:not(.panel-collapse li:first-child) {
+      background: #FDC957;
+    }
+
+    .main-nav .nav li:first-child a:not(.panel-collapse li:first-child a) {
+      color: #600007;
+    }
+
+
+.main-nav .mobile-sidebar .panel-title {
+  
+    padding-left: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+
+.main-nav .mobile-sidebar .panel-title a {
+  text-align: left;
+}
+
+.main-nav .navbar-nav li:last-child a {
+  background: transparent;
+}
+</style>
+
+<!--START OF MAIN NAVIGATION-->
+
+<div class="container-fluid">
+
+
+<div class="container top-logos">
+ <div class="col-lg-3 col-md-3 col-sm-4"><a href="/" target="_top"><img style="width:240px;height: 30px;"src="/img/a-foreign-affair-net-logo.png" alt="A Foreign Affair Logo"></a>
+ </div>
+ <div class="col-lg-9 col-md-9 col-sm-8 text-right">
+   <a href="/invar/sendmess/index.php" target="_blank">
+     <img src="/img/contact-number-top.png">
+   </a>
+
+   <a href="#" data-toggle="modal" data-target=".a-foreign-affair-net-modal" class="register-btn">
+     <span> Register Free Instantly <br>
+       <span>Obligation - NO CC Required</span> </span>
+   </a>
+ </div>
+
+
+
+</div>
+
+<div class="row ">
+
+ <!-- STATIC MAIN NAVBAR -->
+
+ <div class="main-nav">
+  <!-- Static navbar -->
+  <nav class="navbar navbar-default navbar-static-top">
+
+
+      <div class="navbar-header">
+
+        <!--ADA ICON-->
+        <!-- <div class="ada-icon-link">
+          <a href="/information/ada/index.html" target="_blank"><img class="ada-icon" src="/img/handicap-icon.png"
+              alt="Link to ADA Handicap Assistance and Information" border="0"></a>
+          <a href="#main-content"><img src="/img/arrow-forward.png" alt="Disabled Skip to Main Page Content"
+              border="0"></a>
+        </div> -->
+
+        <!--SITE LOGO-->
+
+        <!-- <div class="site-logo" style="width:180px; height:40px"><a href="/" target="_top"><img  src="/img/a-foreign-affair-net-logo-mobile.png" alt="A Foreign Affair Logo" class="w-100 h-100" style="width:240px;"> -->
+        <a href="/" target="_top"> </a><a href="/" id="text-logo"><h3 style="font-family: 'Questrial', sans-serif !important;  color:#fed681; font-size:2.5rem; margin-bottom:unset; font-weight: 600;">A Foreign Affair.net</h3></a>
+
+       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" aria-expanded="true" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+      </div>
+      <div id="myNavbar" class="navbar-collapse collapse in" aria-expanded="true" style="">
+        <ul class="nav navbar-nav text-center">
+          <li><a href="/members/login" target="_blank"><i class="fa-regular fa-user"></i> My Account</a></li>
+<li><a target="_top" href="/">Home</a></li>
+
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" target="_blank">Women's Profiles <i class="fa-solid fa-caret-down"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="/members/signup/" target="_blank"> Men’s FREE Registration</a></li>
+              <li><a href="/women/women.htm" target="_blank"> Foreign Women's Profiles</a></li>
+              <li><a href="/new-foreign-women.html" target="_blank"> Foreign Women Newest Profiles</a></li>
+              <li><a href="/search-single-foreign-women-worldwide.html" target="_blank"> Want More? Single Women
+                  Worldwide</a></li>
+              <li><a href="/new-single-girls-for-marriage-worldwide.html" target="_blank"> This Weeks New Girls
+                  Worldwide</a></li>
+              <li><a href="/search-foreign-women-seeking-men/search-all-foreign-women.html" target="_blank"> Advanced Search</a></li>
+              <li><a href="/order-form/automatchmaillist.shtml" target="_blank"> Weekly Auto Match Wizard</a>
+              </li>
+
+            </ul>
+          </li>
+
+          <li><a href="/a-foreign-affair-tour.html" target="_blank">Women Single Tours</a></li>
+          <li><a href="/how-to-meet-foreign-women.html" target="_blank">How to Meet Women</a></li>
+          <li><a href="/new-foreign-women.html" target="_blank">Newest Women’s
+              Profiles</a></li>
+          <li><a href="/search-foreign-women-seeking-men/search-all-foreign-women.html" target="_blank">Advanced Search</a></li>
+
+
+
+
+          <div class="mobile-sidebar"> 
+<div class="navbar-collapse collapse in" id="myMobileNavbarSidebar" aria-expanded="true" style="">
+
+       <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+            <div class="panel panel-default">
+   <div class="panel-heading" role="tab" id="headingOne">
+       <h4 class="panel-title">
+           <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOneSidebar" aria-expanded="false" aria-controls="collapseOne" class="collapsed">
+
+               WOMEN'S PROFILES &amp; SEARCH OPTION 
+               <i class="more-less glyphicon glyphicon-plus"></i>
+           </a>
+        
+       </h4>
+   </div>
+   <div id="collapseOneSidebar" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne" aria-expanded="false" style="height: 0px;">
+
+       <ul>
+           <li><a href="/members/signup/" target="_blank"> <i class="fa-regular fa-circle-right"></i>
+                   Men’s FREE Registration</a></li>
+           <li><a href="/women/women.htm" target="_blank"> <i class="fa-regular fa-circle-right"></i>
+                   Foreign Women's Profiles</a></li>
+           <li><a href="/new-foreign-women.html" target="_blank"> <i class="fa-regular fa-circle-right"></i> Foreign
+                   Women Newest Profiles</a></li>
+           <li><a href="/search-single-foreign-women-worldwide.html" target="_blank"> <i class="fa-regular fa-circle-right"></i> Want More? Single Women Worldwide</a></li>
+           <li><a href="/new-single-girls-for-marriage-worldwide.html" target="_blank"> <i class="fa-regular fa-circle-right"></i> This Weeks New Girls Worldwide</a></li>
+           <li><a href="/search-foreign-women-seeking-men/" target="_blank"> <i class="fa-regular fa-circle-right"></i>
+                   Advanced Search</a></li>
+           <li><a href="/order-form/automatchmaillist.shtml" target="_blank"> <i class="fa-regular fa-circle-right"></i> Weekly Auto Match Wizard</a></li>
+       </ul>
+
+   </div>
+</div>
+
+<div class="panel panel-default">
+   <div class="panel-heading" role="tab" id="headingTwo">
+       <h4 class="panel-title">
+           <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwoSidebar" aria-expanded="false" aria-controls="collapseTwo">
+
+               SEARCH 
+               <i class="more-less glyphicon glyphicon-plus"></i>
+           </a>
+
+       </h4>
+   </div>
+
+   <div id="collapseTwoSidebar" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo" aria-expanded="false">
+       <ul>
+           <li><a href="/search-foreign-women-seeking-men/" target="_blank"> <i class="fa-regular fa-circle-right"></i>
+                   Advanced Search</a></li>
+           <li><a href="" target="_blank"> <i class="fa-regular fa-circle-right"></i> Quick Search</a></li>
+           <li><a href="" target="_blank"> <i class="fa-regular fa-circle-right"></i> Search by ID</a></li>
+           <li><a href="" target="_blank"> <i class="fa-regular fa-circle-right"></i> New Women</a></li>
+           <li><a href="" target="_blank"> <i class="fa-regular fa-circle-right"></i> Match Wizard</a></li>
+
+       </ul>
+   </div>
+</div>
+
+<div class="panel panel-default">
+   <div class="panel-heading" role="tab" id="headingThree">
+       <h4 class="panel-title">
+           <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThreeSidebar" aria-expanded="false" aria-controls="collapseThree">
+
+               TOOLS &amp; OPTIONS 
+               <i class="more-less glyphicon glyphicon-plus"></i>
+           </a>
+       </h4>
+   </div>
+   <div id="collapseThreeSidebar" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree" aria-expanded="false">
+       <ul>
+           <li><a href="/how-to-meet-women-in-foreign-affair.html" target="_blank"> <i class="fa-regular fa-circle-right"></i> How Our Service Works</a></li>
+           <li><a href="/information/how-to-correspond-with-women.html" target="_blank"> <i class="fa-regular fa-circle-right"></i> Platinum Upgrade</a></li>
+           <li><a href="/phone_translation/" target="_blank"> <i class="fa-regular fa-circle-right"></i>
+                   Virtual Phone/Video Calls</a></li>
+           <li><a href="/order-form/imbra-order-form.html" target="_blank"> <i class="fa-regular fa-circle-right"></i>
+                   IMBRA Request</a></li>
+           <li><a href="/execu/professional-matchmaker-plan.html" target="_blank"> <i class="fa-regular fa-circle-right"></i> Our Executive Plan</a></li>
+           <li><a href="/gifts/" target="_blank"> <i class="fa-regular fa-circle-right"></i> Send Her A
+                   Gift</a></li>
+       </ul>
+   </div>
+</div>
+
+<div class="panel panel-default">
+   <div class="panel-heading" role="tab" id="headingThree">
+       <h4 class="panel-title">
+           <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFourSidebar" aria-expanded="false" aria-controls="collapseThree">
+
+               TRAVEL &amp; MEETING HER 
+               <i class="more-less glyphicon glyphicon-plus"></i>
+           </a>
+       </h4>
+   </div>
+
+   <div id="collapseFourSidebar" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree" aria-expanded="false">
+       <ul>
+           <li><a href="/a-foreign-affair-tour.html" target="_blank"><i class="fa-regular fa-circle-right"></i> A
+                   Foreign Affair Tours</a></li>
+           <li><a href="/a-foreign-singles-tour-vacations/a-foreign-singles-tour-schedule.html" target="_blank"><i class="fa-regular fa-circle-right"></i> A Foreign Affair Tour
+                   Schedule</a></li>
+           <li><a href="/euro_club/" target="_blank"><i class="fa-regular fa-circle-right"></i> Individual
+                   Club Tours</a></li>
+           <!-- <li><a href="/a-foreign-affair-videos/" target="_blank"><i class="fa-regular fa-circle-right"></i> Tour
+                   Highlight Videos</a></li> -->
+           <li><a href="#" target="_blank"><i class="fa-regular fa-circle-right"></i> One on One
+                   Introduction</a></li>
+           <!-- <li><a href="/a-foreign-affair-tour-photos/" target="_blank"><i class="fa-regular fa-circle-right"></i> Tour </a> -->
+                   <!-- Photos</a></li>
+           <li><a href="/blog/" target="_blank"><i class="fa-regular fa-circle-right"></i> Blog</a></li> -->
+       </ul>
+   </div>
+</div>
+           
+</div></div></div>
+
+
+        </ul>
+      </div><!--/.nav-collapse -->
+
+
+  </nav>
+ </div>
+
+ <!--END OF STATIC NAVBAR-->
+
+
+  <!-- START OF BOTTOM CTA NAV MOBILE -->
+
+  <div id="bottom-cta-nav-mobile-top" class=" fixed-top">
+    <ul class="list-group list-group-horizontal mx-auto">
+      <li class="list-group-item border-0 w-100">
+        <div class="rotator-girlss">
+          <!-- MasterSlider -->
+
+
+          <div id="P_masterslider_mobile" class="master-slider-parent ms-staff-carousel ms-parent-id-49">
+            <!-- MasterSlider Main -->
+            <div id="masterslider_mobile" class="master-slider ms-skin-default">
+
+               <!--#include virtual="a-foreign-affair-rotator-v2.php" -->
+     
+
+            </div>
+            <!-- END MasterSlider Main -->
+          </div>
+          <!-- END MasterSlider Main -->
+        </div>
+        <!-- END MasterSlider -->
+
+      </li>
+    </ul>
+  </div>
+  <div id="bottom-cta-nav-mobile" class="sticky-bottom fixed-bottom">
+
+    <ul class="list-group list-group-horizontal d-flex">
+      <li class="list-group-item d-flex align-items-center">
+        <a target="_blank" href="/asia-singles-tour-vacations/asia-singles-tour-schedule.html"
+          class="fw-b2 nav-link my-sm-0"><i class="fa-solid fa-location-dot pr-1 fa-2x" style="color: #6B0002"></i>
+          <p class="small">Tour Schedule</p>
+        </a>
+      </li>
+      <li class="list-group-item d-flex align-items-center">
+        <a target="_blank" href="/mp/latin-women.htm" class="fw-b2 nav-link my-sm-0"><i
+            class="fa-brands fa-hotjar pr-1 fa-2x" style="color: #6B0002"></i>
+          <p class="small">Newest Ladies Profiles</p>
+        </a>
+      </li>
+      <li class="list-group-item d-flex align-items-center">
+        <a target="_blank" href="#" class="fw-b2 nav-link my-sm-0  text-white" data-toggle="modal" data-target=".a-foreign-affair-net-modal"><i
+            class="fa-solid fa-user-plus pr-1 fa-2x" style="color: #ffff; "></i>
+          <p class="small text-white">MEMBER'S LOGIN</p>
+        </a>
+      </li>
+      <!-- <li class="list-group-item">
+            <a href="#" class="fw-b2 nav-link my-sm-0"><i class="fa-solid fa-user-plus pr-1 fa-2x"></i> <p class="small">Register<br/>for FREE</p></a>
+        </li> -->
+    </ul>
+
+  </div>
+
+
+
+<!--END OF START OF MAIN NAVIGATION-->

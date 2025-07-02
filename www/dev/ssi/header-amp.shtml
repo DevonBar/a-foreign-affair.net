@@ -1,0 +1,113 @@
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+    <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
+
+    <!-- AMP BOILERPLATES -->
+    <style amp-boilerplate>
+      body{
+      -webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;
+      -moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;
+      -ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;
+      animation:-amp-start 8s steps(1,end) 0s 1 normal both
+      }
+
+      @-webkit-keyframes -amp-start{
+        from{visibility:hidden}to{visibility:visible}}
+        @-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
+        @-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
+        @-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
+        @keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
+
+      </style>
+
+      <noscript>
+        <style amp-boilerplate>
+          body{
+            -webkit-animation:none;
+            -moz-animation:none;
+            -ms-animation:none;
+            animation:none
+          }
+        </style>
+      </noscript>
+
+      <!-- AMP BOILERPLATES -->
+
+    <!--#include virtual="/imagemap/styles-amp.css" -->
+
+    </head>
+    <body>
+
+    <!-- INTERGRATED TOP-ALL-NAVI PAGES  -->
+    <header class="navigation">
+      <div class="container">
+        <div class="loveme-women-banner">
+          <a href="/">
+            <amp-img 
+              src="/img/a-foreign-affair-logo.png" 
+              alt="A-Foreign-Affair | Logo" 
+              width="400"
+              height="155"
+              class="img-responsive logoarea"
+              layout="responsive">
+              </amp-img>
+          </a>
+        </div>
+
+        <div class="register-btn">
+          <a href="/sign-up.html"><button class="newest-women-btn"><strong>Register Free! Instantly</strong></button></a>
+        </div>
+      </div>  
+      <div class="headerbar">
+        <div class="container">
+          <!-- for mobile -->
+          <div role="button" on="tap:sidebar1.toggle" tabindex="0" class="hamburger"><i class="fa fa-bars"></i></div>
+          
+          <ul class="main-navigation">
+            <li><a href="/" target="_top">Home</a></li>
+            <li><a href="/women/women.htm" target="_top">A Foreign Affair Profiles</a></li>
+            <li><a href="/a-foreign-affair-tour.html" target="_top">A Foreign Affair Tours</a></li>
+            <li><a href="/how-to-meet-foreign-women.html" target="_top">How to Meet Foreign Women</a></li>
+            <li><a href="/new-foreign-women.html" target="_top">A Foreign Affair Newest Profiles</a></li>
+            <li><a href="/search-foreign-women-seeking-men/" target="_top">Advanced Search</a></li>
+            <li><a href="/members/login" target="_top">Login</a></li>
+          </ul>
+
+        </div>
+      </div>
+    </header>  
+
+      <amp-sidebar id="sidebar1" layout="nodisplay" side="left">
+        <div role="button" aria-label="close sidebar" on="tap:sidebar1.toggle" tabindex="0" class="close-sidebar">✕</div>
+        <ul class="sidebar">
+          <li><a href="/" target="_top">Home</a></li>
+          <li><a href="/women/women.htm" target="_top">A Foreign Affair Profiles</a></li>
+          <li><a href="/a-foreign-affair-tour.html" target="_top">A Foreign Affair Tours</a></li>
+          <li><a href="/how-to-meet-foreign-women.html" target="_top">How to Meet Foreign Women</a></li>
+          <li><a href="/new-foreign-women.html" target="_top">A Foreign Affair Newest Profiles</a></li>
+          <li><a href="/search-foreign-women-seeking-men/" target="_top">Advanced Search</a></li>
+          <li><a href="/members/login" target="_top">Login</a></li>
+        </ul>
+      </amp-sidebar>  
+
+    <!-- INTERGRATED TOP-ALL-NAVI PAGES ENDS-->
+    <div class="content-proper">
+    <!-- INTEGRATED ROTATOR  -->
+
+    <div class="container">
+      <div class="img-zoom">
+        <ul class="main-image-rotator text-center">
+          <!--#include virtual="/imagemap/a-foreign-affair-rotator-amp.php" -->            
+        </ul>
+        <div class="slogan-holder">
+          <h3>Find Single Foreign Women with A Foreign Affair!</h3>
+        </div>
+      </div>        
+    </div>
+
+    <!-- INTEGRATED ROTATOR END -->
+
+    <!-- CONTENT -->
+
+    <div class="container content-area">
+    

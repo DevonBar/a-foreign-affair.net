@@ -1,0 +1,7 @@
+<!--#set var="name" value="A Foreign Affair" -->
+<!--#set var="shortname" value="A Foreign Affair" -->
+<!--#set var="site_title" value="A Foreign Affair" -->
+<!--#set var="background" value="/invar/background1.jpg" -->
+<!--#set var="java_and_style" value="<link rel=\"stylesheet\" TYPE=\"text/css\" href=\"/imagemap/a-foreign-affair.css\"><link rel=\"stylesheet\" TYPE=\"text/css\" href=\"/imagemap/tour-menu.css\"><link rel=\"stylesheet\" TYPE=\"text/css\" href=\"/imagemap/st_site.css\">" -->
+<!--#set var="text_color" value="#000000" -->
+<!--#set var="virtual_main_page" value="/index.html" -->

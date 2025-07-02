@@ -1,0 +1,17 @@
+default /
+
+rect / 1,0 194,21
+rect /travel/ 1,24 194,45
+rect /visa/ 1,48 194,69
+rect /order-form/automatchmaillist.shtml 1,72 194,93
+
+rect /women/update.htm 197,0 390,21
+rect /gifts/ 197,24 390,45
+rect /phone_translation/ 197,48 390,69
+rect /information/media.shtml 197,72 390,93
+rect /tour/order/brochure.shtml 197,96 390,117 
+
+rect /tour/ 393,0 586,21
+rect /phone_translation/ 393,24 586,45
+rect /search/profiles.htm 393,48 586,69
+rect /email/ 393,72 586,93  

@@ -1,0 +1,103 @@
+<div class="oc-menu left-sidebar sidebar desktop-sidebar">
+  <div class="left-menu all-links  items">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <span class="mt-5 d-block">&nbsp;</span>
+
+
+      <a href="/new-foreign-women.html" target="_blank">
+          <button type="button" class="btn  btn-lg search-btn "><i class="fa-regular fa-bell"></i> NEWEST FOREIGN
+              AFFAIR PROFILES
+          </button>
+      </a>
+      <a href="/search-foreign-women-seeking-men/search-all-foreign-women.html" target="_blank">
+          <button type="button" class="btn btn-lg search-btn  "><i class="fa-solid fa-magnifying-glass"></i> QUICK
+              SEARCH FOREIGN WOMEN</button>
+      </a>
+      <a href="/new-single-girls-for-marriage-worldwide.html" target="_blank">
+          <button type="button" class="btn  btn-lg  search-btn">NEWEST LADIES WORLDWIDE</button>
+      </a>
+      <!-- <a href="#" target="_blank">
+<button type="button" class="btn  btn-lg  search-btn">GLOBAL SEARCH TOOL</button>
+</a> -->
+
+
+      <!-- <div class="sidebar-menu ssi-link">
+
+    <p>Our Next <a
+        href="https://a-foreign-affair.com/foreign-singles-tour-vacations/foreign-singles-tour-schedule.html"
+        target="_blank"><b>Foreign Group
+          Singles Tour</b> </a> Departs <b>
+        June 1, 2023
+      </b></p>
+    <p>Individual Club Tours <b>365 Days a Year</b></p>
+
+  </div> -->
+
+      <div class="sidebar-contact-num">
+          <!--#include virtual="/invar/ssi-common/contact/sidebar-contact-number.shtml" -->
+          <!-- DO NOT REMOVE  -->
+          <!--#include virtual="/invar/ssi-common/botcode/bottrap.shtml" -->
+          <!-- END - DO NOT REMOVE -->
+      </div>
+
+
+
+      <!----DESKTOP SIDEBAR----->
+      <div class="sidebar-menu desktop-sidebar">
+
+          <h4>Find and Date Foreign Women</h4>
+          <ul>
+              <li><a href="/members/signup" target="_blank"> <i class="fa-regular fa-circle-right"> </i>Men's FREE
+                      Registration</a></li>
+              <li><a href="/women/women.htm" target="_blank" class="fw-bold"> <i class="fa-regular fa-circle-right"> </i>Foreign Women
+                      Profiles</a></li>
+              <li><a href="/new-foreign-women.html" target="_blank" class="fw-bold"> <i class="fa-regular fa-circle-right">
+                      </i>Foreign Women Newest Profiles</a></li>
+              <li><a href="/search-single-foreign-women-worldwide.html" target="_blank" class="fw-bold"> <i
+                          class="fa-regular fa-circle-right"> </i>Want More? Single Women Worldwide</a></li>
+              <li><a href="/new-single-girls-for-marriage-worldwide.html" target="_blank" class="fw-bold"> <i
+                          class="fa-regular fa-circle-right"> </i>This Weeks New Girls Worldwide</a></li>
+              <li><a href="/search-foreign-women-seeking-men/search-all-foreign-women.html" target="_blank"> <i
+                          class="fa-regular fa-circle-right">
+                      </i>Advanced Search</a></li>
+              <li><a href="/order-form/automatchmaillist.shtml" target="_blank"> <i
+                          class="fa-regular fa-circle-right"> </i>Weekly Auto Match Wizard</a></li>
+          </ul>
+      </div>
+      <div class="sidebar-menu desktop-sidebar">
+          <h4>Tools &amp; Options</h4>
+          <ul>
+              <li><a href="/how-to-meet-foreign-women.html" target="_blank"> <i class="fa-regular fa-circle-right">
+                      </i>How Our Service Works</a></li>
+              <li><a href="/information/how-to-correspond-with-women.html" target="_blank"> <i
+                          class="fa-regular fa-circle-right"> </i>Platinum Upgrade</a></li>
+              <li><a href="/phone_translation/" target="_blank"> <i class="fa-regular fa-circle-right"> </i>Virtual
+                      Phone/Video Calls</a></li>
+              <li><a href="/order-form/imbra-order-form.html" target="_blank"> <i class="fa-regular fa-circle-right">
+                      </i>IMBRA Request</a></li>
+              <li><a href="/execu/professional-matchmaker-plan.html" target="_blank"> <i class="fa-regular fa-circle-right"> </i>Our Executive Plan</a></li>
+              <li><a href="/gifts/"> <i class="fa-regular fa-circle-right" target="_blank"> </i>Send Her A Gift</a>
+              </li>
+          </ul>
+      </div>
+      <div class="sidebar-menu desktop-sidebar">
+          <h4>Travel &amp; Meeting Her</h4>
+          <ul>
+              <li><a href="/a-foreign-affair-tour.html" target="_blank"> <i class="fa-regular fa-circle-right"> </i>A
+                      Foreign Affair Tours</a></li>
+              <li><a href="/a-foreign-singles-tour-vacations/a-foreign-singles-tour-schedule.html" target="_blank"> <i
+                          class="fa-regular fa-circle-right"> </i>A Foreign Affair Tour Schedule</a></li>
+              <li><a href="/euro_club/" target="_blank"> <i class="fa-regular fa-circle-right"> </i>Individual Club
+                      Tours</a></li>
+              <!-- <li><a href="/a-foreign-affair-videos/" target="_blank"> <i class="fa-regular fa-circle-right"> </i>Tour
+                      Highlight Videos</a></li> -->
+              <li><a href="/order-form/introductions-order-form.html" target="_blank"> <i
+                          class="fa-regular fa-circle-right"> </i>One on One Introductions</a></li>
+              <!-- <li><a href="/a-foreign-affair-tour-photos/" target="_blank"> <i class="fa-regular fa-circle-right">
+                      </i>Tour Photos</a></li> -->
+              <!-- <li><a href="/blog" target="_blank"> <i class="fa-regular fa-circle-right"> </i>Blog</a></li> -->
+          </ul>
+      </div>
+      <!----END OF DESKTOP SIDEBAR----->
+  </div>
+</div>

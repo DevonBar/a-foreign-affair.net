@@ -1,0 +1,26 @@
+<!--#include virtual="/imagemap/campaign-tracking.shtml" -->
+   <!--#include virtual="/imagemap/top-navi-all-pages.shtml" -->
+
+
+<!-------------------------sidebar components---------------------------------------------->
+<div id="mySidenav" class="sidenav">
+  <!--#include virtual="/imagemap/sidebar-navi-all-pages.shtml" --> 
+</div>
+<!-------------------------end sidebar components---------------------------------------------->
+
+
+<main>
+
+    <!--START OF MAIN CONTENT-->
+    <div class="container content main-content-desktop">
+
+          <!--#include virtual="/imagemap/mobile-sidebar.shtml" -->
+
+          <div class="main-article ">
+            <a name="main-content" href=""></a>
+
+
+           
+               <!--#include virtual="/imagemap/news-top.shtml" -->
+
+         

@@ -1,0 +1,26 @@
+<div class="video-wrapper clearfix">
+
+    <h3><strong>Listen To Some Of Our Stories...</strong></h3>
+
+    <div class="video-thumbnails">
+
+      <div class="  col-xs-12 col-md-4 video-thumbnail ">
+        <a href="https://youtu.be/RzjgyEsZTB8" data-lity=""><img src="./img/AFA-YT002.jpg" alt=""
+            class="img-responsive center-block" border="0"></a>
+      </div>
+
+      <div class=" col-xs-12 col-md-4 video-thumbnail">
+        <a href="https://youtu.be/jAdHELYyH_A" data-lity=""><img src="./img/AFA-YT003.JPG" alt=""
+            class="img-responsive center-block" border="0"></a>
+      </div>
+
+      <div class="  col-xs-12 col-md-4 video-thumbnail ">
+        <a href="https://youtu.be/_m6xDwCjh_Y" data-lity=""><img src="./img/AFA-YT004.JPG" alt=""
+            class="img-responsive center-block" border="0"></a>
+      </div>
+
+
+      <a href="#" target="_blank"><button type="button" class="btn btn-lg ">View More Videos <i
+            class="fa-solid fa-angles-right"></i> </button></a>
+    </div>
+</div>

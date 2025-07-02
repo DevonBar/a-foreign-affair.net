@@ -1,0 +1,117 @@
+/*
+***************************************************************************************
+CSS ELEMENTS FOR TOUR RELATED PAGES
+	. This file is to be placed in the imagemap folder of the site.
+	. It's color and font elements are used on tour pages to lend the same scheme
+	to those pages as the site uses (design integrity between the site and those pages).
+	. IMPORTANT!!!
+	. Use hex colors for these elements that best match the color scheme of the site.
+	. You can change colors for backgrounds and fonts, but DO NOT CHANGE ANYTHING ELSE!!
+	. Be sure to put a stylesheet link in the header of the site:
+		. <LINK href="/imagemap/tour-menu.css" rel="stylesheet" type="text/css">
+***************************************************************************************
+*/
+
+/*
+HORIZONTAL TOUR MENU 
+	. On european, asian, and latin tour pages, the horizontal menu at top of page.
+	. Has three elements: background of selected menu item; background of non-selected menu item; and fonts for either case
+*/
+.menu-bg-selected {
+	background-color: #CC0000;
+	box-shadow:2px 2px 2px #CC0000;
+	border: 1px solid #000000;
+}
+.menu-bg-selected-not {
+	background-color: #CC0000;
+	box-shadow:2px 2px 2px #CC0000;
+	border: 1px solid #000000;	
+}
+.menu-font-selected {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.menu-font-selected:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: NONE;
+}
+.menu-font-selected:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+
+.menu-font-selected-not {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.menu-font-selected-not:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.menu-font-selected-not:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+
+
+
+
+.menu-bg-title {
+	background-color: #CC0000;
+}
+
+.menu-bg-header {
+	background-color: #CC0000;
+}
+
+.menu-font-title {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 26px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.menu-font-header {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.menu-pulldown
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #CC0000;
+	height: 20px;
+	border: 1px solid #FFFFFF;
+	margin-right: 3px;
+	margin-left: 3px;
+	margin-bottom: 3px;
+	width: 200px;}
+

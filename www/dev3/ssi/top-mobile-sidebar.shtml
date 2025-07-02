@@ -1,0 +1,136 @@
+<nav class="mobile-sidebar  navbar navbar-inverse">
+
+    <div class="navbar-header">
+        <h3>Show Main Menu</h3>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myMobileNavbar"
+            aria-expanded="false">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+    <div class="navbar-collapse collapse" id="myMobileNavbar" aria-expanded="false" style="height: 6px;">
+
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
+                            aria-expanded="false" aria-controls="collapseOne" class="collapsed">
+
+                            WOMEN'S PROFILES &amp; SEARCH OPTION <i class="more-less glyphicon glyphicon-plus"></i>
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne"
+                    aria-expanded="false" style="height: 0px;">
+
+                    <ul>
+                        <li><a href="/members/signup" target="_blank"> <i class="fa-regular fa-circle-right"></i>
+                                Men&rsquo;s FREE Registration</a></li>
+                        <li><a href="/women/women.htm" target="_blank"> <i class="fa-regular fa-circle-right"></i>
+                                Foreign Women&#39;s Profiles</a></li>
+                        <li><a href="/new-foreign-women.html" target="_blank"> <i
+                                    class="fa-regular fa-circle-right"></i> Foreign Women Newest Profiles</a></li>
+                        <li><a href="/search-single-foreign-women-worldwide.html" target="_blank"> <i
+                                    class="fa-regular fa-circle-right"></i> Want More? Single Women Worldwide</a></li>
+                        <li><a href="/new-single-girls-for-marriage-worldwide.html" target="_blank"> <i
+                                    class="fa-regular fa-circle-right"></i> This Weeks New Girls Worldwide</a></li>
+                        <li><a href="/search-foreign-women-seeking-men/" target="_blank"> <i
+                                    class="fa-regular fa-circle-right"></i> Advanced Search</a></li>
+                        <li><a href="/order-form/automatchmaillist.shtml" target="_blank"> <i
+                                    class="fa-regular fa-circle-right"></i> Weekly Auto Match Wizard</a></li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingTwo">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                            href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+
+                            SEARCH <i class="more-less glyphicon glyphicon-plus"></i>
+                        </a>
+                    </h4>
+                </div>
+
+                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo"
+                    aria-expanded="false">
+                    <ul>
+                        <li><a href="/search-foreign-women-seeking-men/" target="_blank"> <i
+                                    class="fa-regular fa-circle-right"></i> Advanced Search</a></li>
+                        <li><a href="" target="_blank"> <i class="fa-regular fa-circle-right"></i> Quick Search</a></li>
+                        <li><a href="" target="_blank"> <i class="fa-regular fa-circle-right"></i> Search by ID</a></li>
+                        <li><a href="" target="_blank"> <i class="fa-regular fa-circle-right"></i> New Women</a></li>
+                        <li><a href="" target="_blank"> <i class="fa-regular fa-circle-right"></i> Match Wizard</a></li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingThree">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                            href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+
+                            TOOLS &amp; OPTIONS <i class="more-less glyphicon glyphicon-plus"></i>
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree"
+                    aria-expanded="false">
+                    <ul>
+                        <li><a href="/how-to-meet-women-in-foreign-affair.html" target="_blank"> <i
+                                    class="fa-regular fa-circle-right"></i> How Our Service Works</a></li>
+                        <li><a href="/information/how-to-correspond-with-women.html" target="_blank"> <i
+                                    class="fa-regular fa-circle-right"></i> Platinum Upgrade</a></li>
+                        <li><a href="/phone_translation/" target="_blank"> <i class="fa-regular fa-circle-right"></i>
+                                Virtual Phone/Video Calls</a></li>
+                        <li><a href="/order-form/imbra-order-form.html" target="_blank"> <i
+                                    class="fa-regular fa-circle-right"></i> IMBRA Request</a></li>
+                        <li><a href="/execu/professional-matchmaker-plan.html" target="_blank"> <i
+                                    class="fa-regular fa-circle-right"></i> Our Executive Plan</a></li>
+                        <li><a href="/gifts/" target="_blank"> <i class="fa-regular fa-circle-right"></i> Send Her A
+                                Gift</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingThree">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                            href="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+
+                            TRAVEL &amp; MEETING HER <i class="more-less glyphicon glyphicon-plus"></i>
+                        </a>
+                    </h4>
+                </div>
+
+                <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree"
+                    aria-expanded="false">
+                    <ul>
+                        <li><a href="/a-foreign-affair-tour.html" target="_blank"><i
+                                    class="fa-regular fa-circle-right"></i> Foreign Single Tours</a></li>
+                        <li><a href="/a-foreign-singles-tour-vacations/a-foreign-singles-tour-schedule.html"
+                                target="_blank"><i class="fa-regular fa-circle-right"></i>Foreign Tour Schedule</a></li>
+                        <li><a href="/euro_club/" target="_blank"><i class="fa-regular fa-circle-right"></i> Individual
+                                Club Tours</a></li>
+                        <li><a href="/a-foreign-affair-videos/" target="_blank"><i
+                                    class="fa-regular fa-circle-right"></i> Tour Highlight Videos</a></li>
+                        <li><a href="#" target="_blank"><i class="fa-regular fa-circle-right"></i> One on One
+                                Introduction</a></li>
+                        <li><a href="/a-foreign-affair-tour-photos/" target="_blank"><i
+                                    class="fa-regular fa-circle-right"></i> Tour Photos</a></li>
+                        <li><a href="/blog/" target="_blank"><i class="fa-regular fa-circle-right"></i> Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+</nav>

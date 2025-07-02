@@ -1,0 +1,105 @@
+<!--#include virtual="/dev/ssi/campaign-tracking.shtml" -->
+
+<div class="container-fluid">
+
+      <!--#include virtual="/dev/ssi/top-navi-all-pages.shtml" -->
+
+      <!-- Start Banner Area -->
+      <div class="row banner-area image-zoom">
+        <div class="container">
+          <div class="banner-imgs">
+            <ul class="list-inline">
+              <!--#include virtual="/dev/ssi/a-foreign-affair-rotator.php" -->
+            </ul>
+          </div>
+        </div>
+      </div><!-- End Banner Area -->
+
+      <!-- End Header Area -->
+
+      <div class="container wrapper">
+        <!-- Start Left Sidebar -->
+          <div class="col-lg-3 disorder-two">
+
+            <div class="row">
+            
+              <div class="sidebar-menu">
+                  
+                <a href="#">
+                  <button type="button" class="btn btn-warning btn-lg btn-block">A FOREIGN AFFAIR NEWEST PROFILES</button>
+                </a>
+
+              </div>
+
+            <div class="qsearch-area sidebar-menu">
+               <a href="#"><button type="button" class="btn btn-warning btn-lg btn-block"><i class="fa fa-search" aria-hidden="true"></i>&nbsp;&nbsp;QUICK SEARCH FOR WOMEN</button></a>
+            </div>
+
+              <div class="sidebar-menu ssi-link">
+              
+                <p>Our Next <a href="#"><b>Foreign Group Singles Tour</b> </a> Departs <b><!--#include virtual="/invar/ssi-common/tourdates/next-all.shtml" --></b></p>
+                <p>Individual Club Tours <b>365 Days a Year</b></p>
+                
+              </div>
+              
+              <div class="sidebar-contact-num">
+                  <!--#include virtual="/invar/ssi-common/contact/sidebar-contact-number.shtml" -->
+                <!-- DO NOT REMOVE  -->
+                <!--#include virtual="/invar/ssi-common/botcode/bottrap.shtml" -->
+                <!-- END - DO NOT REMOVE -->
+              </div>
+
+              <!--#include virtual="/dev/ssi/mobile-sidebar.shtml"-->
+
+            <div class="sidebar-menu desktop-sidebar">
+              <h3>Sidebar Title heading</h3>
+              <ul>
+                  <li><a href="#">Temporary menu here</a></li>
+                  <li><a href="#">Temporary menu here</a></li>
+                  <li><a href="#">Temporary menu here</a></li>
+                  <li><a href="#">Temporary menu here</a></li>
+                  <li><a href="#">Temporary menu here</a></li>
+                  <li><a href="#">Temporary menu here</a></li>
+                  <li><a href="#">Temporary menu here</a></li>
+                  <li><a href="#">Temporary menu here</a></li>
+                </ul>
+            </div>
+
+            <div class="sidebar-menu desktop-sidebar">
+              <h3>Sidebar Title heading</h3>
+              <ul>
+                  <li><a href="#">Temporary menu here</a></li>
+                  <li><a href="#">Temporary menu here</a></li>
+                  <li><a href="#">Temporary menu here</a></li>
+                  <li><a href="#">Temporary menu here</a></li>
+                  <li><a href="#">Temporary menu here</a></li>
+                  <li><a href="#">Temporary menu here</a></li>
+                  <li><a href="#">Temporary menu here</a></li>
+                  <li><a href="#">Temporary menu here</a></li>
+                </ul>
+            </div>
+
+            <div class="sidebar-menu desktop-sidebar">
+              <h3>Sidebar Title heading</h3>
+              <ul>
+                  <li><a href="#">Temporary menu here</a></li>
+                  <li><a href="#">Temporary menu here</a></li>
+                  <li><a href="#">Temporary menu here</a></li>
+                  <li><a href="#">Temporary menu here</a></li>
+                  <li><a href="#">Temporary menu here</a></li>
+                  <li><a href="#">Temporary menu here</a></li>
+                  <li><a href="#">Temporary menu here</a></li>
+                  <li><a href="#">Temporary menu here</a></li>
+                </ul>
+            </div>
+
+            </div>
+
+          </div><!-- End Left Sidebar -->
+
+          <!-- Start Content Area -->
+          <div class="col-lg-9 content-area disorder-one">
+            
+            <div class="news">
+          	<!--#include virtual="/dev/ssi/news-top.shtml"-->
+            </div>

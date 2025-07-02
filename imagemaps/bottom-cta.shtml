@@ -1,0 +1,85 @@
+<!-- BOTTOM CTAs -->
+<div id="bottom-cta-nav" class="">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-4 mx-0 px-0 d-md-flex d-block align-items-md-center">
+                                 
+                <!-- Use any element to open the sidenav -->
+                <ul class="list-group list-group-horizontal shadow-none">
+
+                <li class="list-group-item border-0">
+                <a href="javascript:void(0)" onclick="openNav()" class="rounded-pill border text-dark fw-b2 nav-link border-none text-dark py-2 my-2 px-5 my-sm-0" style="border:none;border-bottom: #ced4da solid 1px;"><i class="fa-solid fa-bars"></i>&nbsp;&nbsp;MENU</a>
+                </li>
+                </ul>
+                <!-- <a href="/"><img src="/img/a-foreign-affair-net-logo.png" border="0" alt="A Foreign Affair Logo" title="A Foreign Affair" style="width:240px;height: 30px;"/></a> -->
+                <a href="/" id="text-logo"><h3 style="font-family: 'Questrial', sans-serif !important;  color:#600007; font-size:3rem;    font-weight: 600;">A Foreign Affair.net</h3></a>
+             
+                  
+            </div>
+            <div class="col-4">&nbsp;</div>
+            <div class="col-4 text-center">
+                <a target="_blank" href="/a-foreign-singles-tour-vacations/a-foreign-singles-tour-schedule.html" style="position: absolute;height: 100px; width: 400px;z-index:10;">&nbsp;</a>
+                <script src="https://cdn.logwork.com/widget/countdown.js"></script>
+<!--#include virtual="/invar/ssi-common/tourforms/tour-date-timer/europe/global-timer.shtml" -->
+
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+        <div class="col-4 mx-0 px-0 d-flex justify-content-start">
+            
+            <ul class="list-group list-group-horizontal">
+           
+            <li class="list-group-item border-0">
+                <a target="_blank" href="/a-foreign-singles-tour-vacations/a-foreign-singles-tour-schedule.html" class="fw-b2 nav-link rounded-pill border text-dark py-2 my-2 px-5 my-sm-0"><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp; Tour
+                Schedule</a>
+            </li>
+            <li class="list-group-item border-0">
+                <!-- <a href="#" class="fw-b2 nav-link rounded-pill border text-dark py-2 my-2 px-3 my-sm-0"><i class="fa-solid fa-people-arrows"></i>&nbsp;&nbsp;Executive Plan</a> -->
+                <a target="_blank" href="/new-single-girls-for-marriage-worldwide.html" class="fw-b2 nav-link rounded-pill border text-dark py-2 my-2 px-5 my-sm-0"><i class="fa-brands fa-hotjar"></i>&nbsp;&nbsp;Newest Ladies Profiles</a>
+            </li>
+            </ul>
+
+        </div>
+        <div class="col-4 mx-0 px-0 d-flex justify-content-center">
+            
+            <ul class="list-group list-group-horizontal w-100">
+            <li class="list-group-item border-0 w-100">
+                <div class="rotator-girlss">
+                <!-- MasterSlider -->
+            
+            
+                <div id="P_masterslider" class="master-slider-parent ms-staff-carousel ms-parent-id-49">
+                    <!-- MasterSlider Main -->
+                    <div id="masterslider" class="master-slider ms-skin-default">
+                            
+                     <!--#include virtual="a-foreign-affair-rotator-v2.php" -->
+                    </div>
+                    <!-- END MasterSlider Main -->
+                </div>
+                <!-- END MasterSlider Main -->
+                </div>
+                <!-- END MasterSlider -->
+                
+            </li>
+            </ul>
+        </div>
+        <div class="col-4 mx-0 px-0 d-flex justify-content-end">
+            <ul class="list-group list-group-horizontal">
+
+             <li class="list-group-item border-0">
+                <a target="_blank" href="/women/women.htm" class="fw-b2 nav-link rounded-pill border text-dark py-2 my-2 px-3 my-sm-0 "><i class="fa-solid fa-address-card"></i>&nbsp;&nbsp;All Ladies
+                    Profiles</a>
+            </li>
+            <li class="list-group-item border-0">
+                <a href="#" class="fw-b2 nav-link rounded-pill border  py-2 my-2 px-3 my-sm-0 top-nav-reg" type="button" data-toggle="modal" data-target=".a-foreign-affair-net-modal">
+                <i class="fa-solid fa-right-to-bracket me-3"></i>Member's Login
+                </a>
+            </li>
+            </ul>
+        </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,30 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /golinks/
+Disallow: /dev/jscripts/
+
+
+#######################################
+#Modified Date:5/17/2021
+#Modified By: JTI
+
+Disallow: /golinks/
+Disallow: /jscripts/
+Disallow: /cgi-bin/
+Disallow: /js/
+Disallow: /invar/
+Disallow: /resale/
+Disallow: /invar/maps/
+Disallow: /invar/services/
+Disallow: /invar/resale/
+Disallow: /members/
+Disallow: /email/
+Disallow: /search/
+Disallow: /links/
+Disallow: /ladies/
+Disallow: /euro_club/
+Disallow: /tour/spb/
+Disallow: /registration/
+Disallow: /imagemap/
+Disallow: /static/
+Disallow: /travel/

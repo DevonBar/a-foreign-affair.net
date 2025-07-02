@@ -1,0 +1,4 @@
+
+            <div class="news">
+              <!--#include virtual="/invar/ssi-common/news-bottom.shtml"-->
+            </div>
